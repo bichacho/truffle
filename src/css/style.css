@@ -1,0 +1,49 @@
+* {
+    direction: rtl;
+
+}
+
+body{
+    background-color: lightblue;
+
+}
+.row {
+    display: flex;
+    font: 30px arial, sans-serif;
+
+}
+
+.heder {
+    background-color: blue;
+    color: rgba(104, 98, 121, 0.815);
+    padding: 5px 5px 5px 1px;
+    text-align: center;
+    font: italic bold 42px/20px Georgia, serif;
+    word-spacing: 18px;
+    height: 100px;
+    background-color: #cccccc;
+    background-image: linear-gradient(blue, yellow, green);
+}
+
+#addNom {
+    background-color: rgb(210, 253, 53); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#start {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
