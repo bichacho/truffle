@@ -1,49 +1,86 @@
 * {
-    direction: rtl;
+   direction: rtl;
 
 }
 
 body{
-    background-color: lightblue;
+   background-color: lightblue;
+   display: flex;
+   flex-direction: column;
 
 }
 .row {
-    display: flex;
-    font: 30px arial, sans-serif;
+   display: flex;
+   font: 30px arial, sans-serif;
 
 }
 
 .heder {
-    background-color: blue;
-    color: rgba(104, 98, 121, 0.815);
-    padding: 5px 5px 5px 1px;
-    text-align: center;
-    font: italic bold 42px/20px Georgia, serif;
-    word-spacing: 18px;
-    height: 100px;
-    background-color: #cccccc;
-    background-image: linear-gradient(blue, yellow, green);
+   background-color: blue;
+   color: rgba(104, 98, 121, 0.815);
+   padding: 5px 5px 5px 1px;
+   text-align: center;
+   font: italic bold 42px/20px Georgia, serif;
+   word-spacing: 18px;
+   height: 100px;
+   background-color: #cccccc;
+   background-image: linear-gradient(blue, yellow, green);
 }
 
+
+.main{
+   flex-grow: 1;  
+}
+
+
+
 #addNom {
-    background-color: rgb(210, 253, 53); /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+   background-color: rgb(210, 253, 53); /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+ }
 
 #start {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+ }
 
+
+
+
+/* page2 */
+
+
+.final{
+   display: none;
+}
+
+.resultList {
+   background: yellow;
+   padding: 20px;
+ }
+ 
+ 
+ 
+.resultList l  i {
+   background: #ffe5e5;
+   padding: 5px;
+   margin-left: 35px;
+ }
+ 
+.resultList li:first-child {
+    color: blue;
+     font-size: 1.2em;
+     font-weight: bold;
+ }
