@@ -1,4 +1,9 @@
 console.log('main2.js');
+var ethJSABI = require("ethjs-abi");
+var BlockchainUtils = require("truffle-blockchain-utils");
+var Web3 = require("web3");
+
+
 var nomList = document.getElementById('nomList');
 var final = document.querySelector('.final');
 var voteBtn = document.querySelector('.voteBtn');
@@ -24,6 +29,7 @@ function setVote() {
 		console.log(person);
 		person.votes++;
 	}
+	
 	console.log('person', person);
 }
 
@@ -56,8 +62,8 @@ function renderNoms(noms) {
 }
 
 // Set the date we're counting down to
-// var countDownDate = 1000 * 60 * timerValue || 1000 * 60 * 5; real time
-var countDownDate = 1000 * 30;
+ var countDownDate = 1000 * 60 * timerValue || 1000 * 60 * 5; //real time
+//var countDownDate = 1000 * 30;
 
 // Update the count down every 1 second
 var x = setInterval(function() {
